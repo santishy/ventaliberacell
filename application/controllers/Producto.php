@@ -15,7 +15,7 @@ class Producto extends CI_Controller
 	}
 	public function index()
 	{
-		echo 'hola/mundo';
+		echo 'hola/mundofasfs';
 	}
 	public function desactivarProducto()
 	{
