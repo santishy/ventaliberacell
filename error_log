@@ -1,0 +1,5 @@
+[01-Aug-2016 12:59:28 America/Mexico_City] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/olablogg/ventaliberacell.com/facebook.php on line 2
+[01-Aug-2016 12:59:28 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php56/lib/php') in /home/olablogg/ventaliberacell.com/facebook.php on line 2
+[01-Aug-2016 13:03:20 America/Mexico_City] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/olablogg/ventaliberacell.com/facebook.php on line 3
+[09-Aug-2016 16:53:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/olablogg/ventaliberacell.com/application/controllers/Producto.php on line 49
+[09-Aug-2016 16:53:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/olablogg/ventaliberacell.com/application/controllers/Producto.php on line 197

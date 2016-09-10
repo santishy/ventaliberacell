@@ -1,0 +1,215 @@
+azulVerde = #66FFCC
+morado = #B88AE6
+borde-redondo(p)
+    border-radius p
+    -moz-border-radius p
+    -webkit-border-radius p
+sombra()
+	  box-shadow: 3px 5px 5px #888888 !important;
+	  -webkit-box-shadow: 3px 5px 5px #888888 !important;
+	  -moz-box-shadow: 3px 5px 5px #888888 !important;
+transicion(prop)
+	transition-property prop
+	transition-duration 1s
+	-webkit-transition-property prop
+	-webkit-transition-duration 1s
+	-moz-transition-property prop
+	-moz-transition-duration 1s
+// ids-----------------------------------------------
+#tablaCarritoCompras tr:nth-child(2n)
+	background-color #CCEBEB
+// clases------------------------------------------
+body
+	background-color #e6e6e6
+	font-family: 'Roboto Mono' 
+hr 
+	border-top 2px solid #B8B8E6
+#allSelect
+	color #336699 !important
+	font-weight bold
+#btnModalPrecio
+	color #336699 !important
+	font-weight bold
+	border-right 2px solid #204060
+#canvas
+	display none
+#mns-cart 
+	font-size 1.5em !important
+	color #595959
+	//font-weight bold
+	text-align left
+.alerta
+	background-color  #ff3333 
+
+.bottom-cart
+	background-color #FFFFD6
+	bottom -25%
+	font-size 1.2em
+	height 25%
+	max-height 250px
+	max-width 100%
+	position fixed
+	text-align center
+	width 100%
+	z-index 100
+	
+.boton-carro
+	background-color #FFFFD6
+	height 25px
+	left 50%
+	position absolute
+	text-align center
+	top -25px
+	width 25px
+	z-index 100
+.destino
+	color azulVerde
+	cursor pointer
+	&:hover 
+		> .divDestino
+			border solid
+.exist
+	font-weight bold
+	p 
+		display inline-block
+		width 45%
+		&:nth-child(4)
+			color white
+			text-align center
+			padding 4px
+			background-color  #cc0099
+	label 
+		display inline-block
+		width 50%
+.in-line
+	display flex
+	
+.link
+	text-decoration none 
+	color inherit
+	transicion('color')
+	&:hover 
+		color azulVerde
+		cursor pointer 
+		font-size bold
+		text-decoration none
+.link-cart
+	font-size 1.2em
+	text-align center
+	transicion('border')
+	transicion('font-size')
+	&:hover
+		border-bottom 2px solid #0099CC
+		border-top 2px solid #0099CC
+		font-size 1.4em
+.link-confir
+	margin-top 5px
+	font-weight bold
+	font-size 1.1em	
+.link-gasto
+	font-weight bold
+	text-decoration none
+	color #005C99
+.navbar-brand
+	background-color #204060 !important
+	color white !important
+.navbar-precio
+	border 2px solid #204060 !important
+.opciones 
+	width 100%
+	display flex
+	flex-direction column
+	align-items center
+	justify-content center
+	flex-wrap wrap
+	text-align center
+	div
+		margin-top 2px
+		width 100% !important
+		button 
+			width 100%
+.p
+	box-shadow 0px 0px 5px morado !important
+	-webkit-box-shadow 0px 0px 5px morado !important
+	-moz-box-shadow 0px 0px 5px morado !important
+	padding 4px
+	text-align center
+	background-color #FFF5F5
+.pass-venta
+	border-bottom 10px solid #d9d9d9
+	border-left 10px solid #d9d9d9
+	border-top 10px solid #d9d9d9
+.p-linea
+	margin-top 7px
+	text-align center
+.reporte
+	font-size 1.2em
+	color #3D5C5C
+	border-bottom 2px solid #3D5C5C
+.sombras
+	sombra()
+.tabla
+	font-family: 'Roboto Mono'
+	font-size 1.1em
+	thead
+		font-weight bold
+		background-color #4d4d4d
+		color white
+	tbody
+		tr:nth-child(even)
+			background-color #e6e6e6
+		tr:nth-child(odd)
+			background-color #f2f2f2
+.tabla-creditos
+	font-family: 'Roboto Mono'
+	thead
+		font-weight bold
+		background-color #4d4d4d
+		color white
+	tbody
+		tr:nth-child(even)
+			background-color #e6e6e6
+		tr:nth-child(odd)
+			background-color #f2f2f2
+.tit
+	color #005C99
+	font-size 1.3em
+	font-weight bold
+.total
+	font-size 1.3em
+	color black
+.t-destino
+	cursor pointer
+	color #0000FF
+	font-size 1.1em
+	font-weight bold
+	-webkit-transition border-bottom .3s
+	transition border-bottom .3s
+	&:hover
+		border-bottom solid
+.t-pagos
+	a 
+		text-decoration none
+		color inherit
+	cursor pointer
+	color #0000FF
+	font-size 1.1em
+	font-weight bold
+	-webkit-transition border-bottom .3s
+	transition border-bottom .3s
+	&:hover
+		border-bottom solid
+.panel-pagos
+	font-size 1.3em
+.urgente
+	font-weight bold
+	color white !important
+.ver-carrito
+	border 2px solid azulVerde
+	borde-redondo(5px)
+	height 80%
+	top 10%
+.view-cart
+	background-color white
+	height 100%
+	

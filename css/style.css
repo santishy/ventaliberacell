@@ -1,0 +1,259 @@
+#tablaCarritoCompras tr:nth-child(2n) {
+  background-color: #ccebeb;
+}
+body {
+  background-color: #e6e6e6;
+  font-family: 'Roboto Mono';
+}
+hr {
+  border-top: 2px solid #b8b8e6;
+}
+#allSelect {
+  color: #369 !important;
+  font-weight: bold;
+}
+#btnModalPrecio {
+  color: #369 !important;
+  font-weight: bold;
+  border-right: 2px solid #204060;
+}
+#canvas {
+  display: none;
+}
+#mns-cart {
+  font-size: 1.5em !important;
+  color: #595959;
+  text-align: left;
+}
+.alerta {
+  background-color: #f33;
+}
+.bottom-cart {
+  background-color: #ffffd6;
+  bottom: -25%;
+  font-size: 1.2em;
+  height: 25%;
+  max-height: 250px;
+  max-width: 100%;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+.boton-carro {
+  background-color: #ffffd6;
+  height: 25px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: -25px;
+  width: 25px;
+  z-index: 100;
+}
+.destino {
+  color: #6fc;
+  cursor: pointer;
+}
+.destino:hover > .divDestino {
+  border: solid;
+}
+.exist {
+  font-weight: bold;
+}
+.exist p {
+  display: inline-block;
+  width: 45%;
+}
+.exist p:nth-child(4) {
+  color: #fff;
+  text-align: center;
+  padding: 4px;
+  background-color: #c09;
+}
+.exist label {
+  display: inline-block;
+  width: 50%;
+}
+.in-line {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition-property: 'color';
+  transition-duration: 1s;
+  -webkit-transition-property: 'color';
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: 'color';
+  -moz-transition-duration: 1s;
+}
+.link:hover {
+  color: #6fc;
+  cursor: pointer;
+  font-size: bold;
+  text-decoration: none;
+}
+.link-cart {
+  font-size: 1.2em;
+  text-align: center;
+  transition-property: 'border';
+  transition-duration: 1s;
+  -webkit-transition-property: 'border';
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: 'border';
+  -moz-transition-duration: 1s;
+  transition-property: 'font-size';
+  transition-duration: 1s;
+  -webkit-transition-property: 'font-size';
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: 'font-size';
+  -moz-transition-duration: 1s;
+}
+.link-cart:hover {
+  border-bottom: 2px solid #09c;
+  border-top: 2px solid #09c;
+  font-size: 1.4em;
+}
+.link-confir {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.link-gasto {
+  font-weight: bold;
+  text-decoration: none;
+  color: #005c99;
+}
+.navbar-brand {
+  background-color: #204060 !important;
+  color: #fff !important;
+}
+.navbar-precio {
+  border: 2px solid #204060 !important;
+}
+.opciones {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.opciones div {
+  margin-top: 2px;
+  width: 100% !important;
+}
+.opciones div button {
+  width: 100%;
+}
+.p {
+  box-shadow: 0px 0px 5px #b88ae6 !important;
+  -webkit-box-shadow: 0px 0px 5px #b88ae6 !important;
+  -moz-box-shadow: 0px 0px 5px #b88ae6 !important;
+  padding: 4px;
+  text-align: center;
+  background-color: #fff5f5;
+}
+.pass-venta {
+  border-bottom: 10px solid #d9d9d9;
+  border-left: 10px solid #d9d9d9;
+  border-top: 10px solid #d9d9d9;
+}
+.p-linea {
+  margin-top: 7px;
+  text-align: center;
+}
+.reporte {
+  font-size: 1.2em;
+  color: #3d5c5c;
+  border-bottom: 2px solid #3d5c5c;
+}
+.sombras {
+  box-shadow: 3px 5px 5px #888 !important;
+  -webkit-box-shadow: 3px 5px 5px #888 !important;
+  -moz-box-shadow: 3px 5px 5px #888 !important;
+}
+.tabla {
+  font-family: 'Roboto Mono';
+  font-size: 1.1em;
+}
+.tabla thead {
+  font-weight: bold;
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.tabla tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+.tabla tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.tabla-creditos {
+  font-family: 'Roboto Mono';
+}
+.tabla-creditos thead {
+  font-weight: bold;
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.tabla-creditos tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+.tabla-creditos tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.tit {
+  color: #005c99;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.total {
+  font-size: 1.3em;
+  color: #000;
+}
+.t-destino {
+  cursor: pointer;
+  color: #00f;
+  font-size: 1.1em;
+  font-weight: bold;
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+}
+.t-destino:hover {
+  border-bottom: solid;
+}
+.t-pagos {
+  cursor: pointer;
+  color: #00f;
+  font-size: 1.1em;
+  font-weight: bold;
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+}
+.t-pagos a {
+  text-decoration: none;
+  color: inherit;
+}
+.t-pagos:hover {
+  border-bottom: solid;
+}
+.panel-pagos {
+  font-size: 1.3em;
+}
+.urgente {
+  font-weight: bold;
+  color: #fff !important;
+}
+.ver-carrito {
+  border: 2px solid #6fc;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  height: 80%;
+  top: 10%;
+}
+.view-cart {
+  background-color: #fff;
+  height: 100%;
+}
